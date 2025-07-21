@@ -1,3 +1,4 @@
+![az_postgresql](az_postgresql.png)
 # az_postgresql
 
 A **FiveM** resource that allows seamless communication with a **PostgreSQL** database using [postgres.js](https://github.com/porsager/postgres).
