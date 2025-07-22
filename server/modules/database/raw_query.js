@@ -13,7 +13,7 @@ async function rawQuery(query, params = []) {
   }
 }
 
-global.exports("raw_query", (query, params, cb) => {
+global.exports("rawQuery", (query, params, cb) => {
   rawQuery(query, params).then(([success, result]) => {
     if (typeof cb === "function") cb(success, result);
   });

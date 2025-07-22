@@ -17,7 +17,7 @@ async function executeFile(filePath, params = []) {
   }
 }
 
-global.exports("execute_file", (filePath, cb) => {
+global.exports("executeFile", (filePath, cb) => {
   executeFile(filePath).then(([success, resultOrError]) => {
     if (typeof cb === "function") cb(success, resultOrError);
   });

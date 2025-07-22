@@ -10,10 +10,10 @@ exports('init', function()
             return exports['az_postgresql']:select(...)
         end,
         raw_query = function(...)
-            return exports['az_postgresql']:raw_query(...)
+            return exports['az_postgresql']:rawQuery(...)
         end,
         execute_file = function(...)
-            return exports['az_postgresql']:execute_file(...)
+            return exports['az_postgresql']:executeFile(...)
         end,
         ready = function(cb) return exports['az_postgresql']:ready(cb) end,
         transaction = function(...)
